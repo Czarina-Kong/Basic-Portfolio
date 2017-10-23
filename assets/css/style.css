@@ -1,0 +1,63 @@
+header,
+div,
+section,
+aside,
+footer{
+	border: solid;
+}
+
+header{
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+body{
+	background-image: url("../images/concrete-texture/concrete-texture.png");
+	background-repeat: repeat;
+}
+
+footer{
+	clear: both;
+	background-color: #666666;
+	color: lightgray;
+}
+
+#header{
+	border: solid;
+	border-color: red;
+	width: 960px;
+	margin: auto;
+}
+
+#middle{
+	border:solid;
+	border-color: red;
+	width: 960px;
+	margin: auto;
+}
+
+.links{
+	width: 200px;
+	font-size: 16px;
+}
+
+.maincontent{
+	background-color: white;
+	width: 570px;
+	float: left;
+	padding: 40px;
+	margin-right: 40px;
+
+}
+
+.sidebar{
+	background-color: white;
+	width:190px;
+	float:left;
+	padding: 30px;
+}
+
+.logo{
+	width: 30%;
+	height: 30%;
+}
