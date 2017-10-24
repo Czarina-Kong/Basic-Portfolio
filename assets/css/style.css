@@ -1,14 +1,8 @@
-header,
-div,
-section,
-aside,
-footer{
-	border: solid;
-}
-
 header{
-	background-color: white;
+	background-color: #ffffff;
 	margin-bottom: 40px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
 }
 
 body{
@@ -18,15 +12,40 @@ body{
 
 footer{
 	clear: both;
+	height: 80px;
 	background-color: #666666;
+	margin-top: 40px;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color:#4aaaa5;
 	color: lightgray;
+	text-align: center;
+/*sticky footer*/
+	position: sticky;
+	bottom: 0;
 }
 
-#header{
-	border: solid;
-	border-color: red;
+.header{
+	position: relative;
 	width: 960px;
+	height: 80px;
 	margin: auto;
+}
+
+.name{
+	background-color: #4aaaa5;
+	padding: 0px 40px 0px 40px ;
+	color: white;
+	float:left;
+}
+
+
+.links{
+	position: absolute;
+	right: 0px;
+	top: 40%;
+	padding: 0px;
+	font-size: 16px;
 }
 
 #middle{
@@ -36,22 +55,21 @@ footer{
 	margin: auto;
 }
 
-.links{
-	width: 200px;
-	font-size: 16px;
-}
-
 .maincontent{
-	background-color: white;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color:#dddddd;
 	width: 570px;
 	float: left;
 	padding: 40px;
-	margin-right: 40px;
-
+	margin-right: 48px;
+	position: relative;
 }
 
 .sidebar{
-	background-color: white;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
 	width:190px;
 	float:left;
 	padding: 30px;
