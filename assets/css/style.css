@@ -66,9 +66,26 @@ footer{
 	position: relative;
 }
 
-#headshot{
+.floatleft{
 	float: left;
 	padding-right: 20px;
+}
+
+.portfoliolink{
+	position:relative;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+
+.portfoliodescription{
+	background-color: #4aaaa5;
+	padding: 10px 0px 10px 0px;
+	color: white;
+	text-align: center;
+	width: 270px;
+	position: absolute;
+	bottom: 0;
 }
 
 .sidebar{
